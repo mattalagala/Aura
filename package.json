@@ -1,0 +1,38 @@
+{
+	"name": "aura-challenge-zips",
+	"version": "0.0.0",
+	"main": "src/index.js",
+	"engines": {
+		"node": ">=12.0.0",
+		"npm": ">=6.0.0"
+	},
+	"devDependencies": {
+		"@types/node": "^14.14.10",
+		"jest": "^26.0.1",
+		"nodemon": "^2.0.6",
+		"prettier": "^1.19.1",
+		"ts-node": "^9.1.0",
+		"typescript": "^4.1.2"
+	},
+	"dependencies": {
+		"axios": "^0.21.0",
+		"body-parser": "^1.19.0",
+		"express": "^4.17.1",
+		"express-hbs": "^2.3.4",
+		"handlebars": "^4.7.6",
+		"hbs": "^4.1.1",
+		"multer": "^1.4.2"
+	},
+	"scripts": {
+		"format:fix": "prettier --write **/*.{js,ts,md,html}",
+		"test": "jest",
+		"start": "nodemon app.ts"
+	},
+	"description": "This challenge will allow you demostrate your knowledge and understanding of node.js. It is intended to be familar, much like a development story that could come up on the job. After you submit the completed project, we will schedule a follow-up code-review.",
+	"keywords": [
+		"aura",
+		"zip-code"
+	],
+	"author": "Matthew Alagala",
+	"license": "MIT"
+}
