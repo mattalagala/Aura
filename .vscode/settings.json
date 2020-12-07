@@ -1,0 +1,7 @@
+{
+    "prettier.jsxSingleQuote": true,
+    "prettier.withNodeModules": true,
+    "prettier.vueIndentScriptAndStyle": true,
+    "prettier.useTabs": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
