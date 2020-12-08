@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 const hbs = require("express-hbs");
 
 const app = express();
-const port = 9999;
+const port = 3000;
 
 const startExpressApp = () => {
 	app.listen(port, () => {
